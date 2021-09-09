@@ -1,10 +1,12 @@
 import './App.css';
-import bgImg from './assets/bg.jpg'
+import Main from './components/Main';
+
+
 
 function App() {
   return (
-    <div style={{background:`url('${bgImg}') no-repeat center/cover`}} className="App">
-      <h1>hollo world</h1>
+    <div  className="App">
+      <Main/>
     </div>
   );
 }
